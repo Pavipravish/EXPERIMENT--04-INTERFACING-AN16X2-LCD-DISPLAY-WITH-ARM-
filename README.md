@@ -1,7 +1,6 @@
 # EXPERIMENT--04-INTERFACING-AN16X2-LCD-DISPLAY-WITH-ARM AND DISPLAY STRING
-## NAME: AATHI.S
-## REGISTER NUMBER: 212223220001
- ## Aim: To Interface a 16X2 LCD display to ARM controller  , and simulate it in Proteus 
+
+## Aim: To Interface a 16X2 LCD display to ARM controller  , and simulate it in Proteus 
 ## Components required: STM32 CUBE IDE, Proteus 8 simulator .
 ## Theory 
 The full form of an ARM is an advanced reduced instruction set computer (RISC) machine, and it is a 32-bit processor architecture expanded by ARM holdings. The applications of an ARM processor include several microcontrollers as well as processors. The architecture of an ARM processor was licensed by many corporations for designing ARM processor-based SoC products and CPUs. This allows the corporations to manufacture their products using ARM architecture. Likewise, all main semiconductor companies will make ARM-based SOCs such as Samsung, Atmel, TI etc.
@@ -197,7 +196,7 @@ while (1)
 }
 void lcd_display(){
 	Lcd_cursor(&lcd,0,1);
-	Lcd_string(&lcd,"Thaksha Rishi\n");
+	Lcd_string(&lcd,"AATHI\n");
 }
 void SystemClock_Config(void)
 {
@@ -258,7 +257,8 @@ void assert_failed(uint8_t *file, uint32_t line)
 ```
 ## Output screen shots of proteus  :
  
-![4](https://github.com/user-attachments/assets/21af9d9f-3c83-4c2b-95a0-71d80613a21f)
+![Picsart_25-10-15_19-24-26-267 1](https://github.com/user-attachments/assets/de82f970-6b46-4b7f-97f7-a03da66f2d2e)
+
 
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
